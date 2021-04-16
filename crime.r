@@ -104,7 +104,7 @@ plot(m, forecast)
 
 ### Plotting forecast broken down into trend, weekly and yearly
 
-
+#Intiate prophet
 prophet_plot_components(m, forecast)
 
 if(!require(readr)) install.packages("readr")
